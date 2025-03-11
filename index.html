@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Card UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">card.io</div>
+        <nav class="nav-links">
+            <a href="#">About us</a>
+            <a href="#">Pricing</a>
+            <a href="#">Features</a>
+            <a href="#">Our services</a>
+        </nav>
+        <div class="nav-actions">
+            <button class="btn">Book a Call</button>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        </div>
+    </header>
+    
+    <!-- Mobile Menu -->
+    <nav id="mobile-menu" class="mobile-menu">
+        <a href="#">About us</a>
+        <a href="#">Pricing</a>
+        <a href="#">Features</a>
+        <a href="#">Our services</a>
+        <button class="btn">Book a Call</button>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <p class="promo">Get 20% off the first purchase</p>
+        <h1>The Most Modern Card <br> Platform for Debit</h1>
+        <p class="description">Are you ready for a new standard for a top-of-the-line card platform? Launch your product, issue cards, and increase your revenue.</p>
+        <div class="cta-buttons">
+            <button class="btn primary">Book a Consultation</button>
+            <button class="btn secondary">Get API Keys</button>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p class="footer-logo">card.io</p>
+        <p>Your modern solution for seamless card management and financial services.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <p class="copyright">&copy; 2025 card.io. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            document.getElementById("mobile-menu").classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
