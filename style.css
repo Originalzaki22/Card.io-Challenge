@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: black;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-actions .btn {
+    background: white;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    background-color: black;
+    padding: 15px;
+}
+
+.mobile-menu.active {
+    display: flex;
+}
+
+.mobile-menu a {
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    padding: 80px 20px;
+}
+
+.promo {
+    color: pink;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.description {
+    color: gray;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.cta-buttons .btn {
+    margin: 10px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.primary {
+    background: white;
+    color: black;
+    border: none;
+}
+
+.secondary {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background: #111;
+    padding: 30px 20px;
+    margin-top: 50px;
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
